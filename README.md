@@ -30,10 +30,8 @@ cd organize_downloads_dir
 ### Run the Script
 
 ```bash
-python organize_downloads_dir.py
+python organize_downloads_dir.py --help
 ```
-
-📁 By default, the script targets your system's `~/Downloads` folder. You can change this by modifying the `DOWNLOADS_DIR` variable in the script.
 
 ## 🧩 Categories & Extensions
 
@@ -65,7 +63,6 @@ Downloads/
 ## 💡 Ideas for Enhancement
 
 * Add support for nested folder scanning.
-* Add a `--dry-run` option.
 * Add logging to a file.
 * GUI version using Tkinter or PyQt.
 
