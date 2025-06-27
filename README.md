@@ -31,6 +31,13 @@ cd organize_downloads_dir
 
 ```bash
 python organize_downloads_dir.py --help
+python organize_downloads_dir.py --dry-run --dir ~/Downloads/
+python organize_downloads_dir.py --dir ~/Downloads/
+```
+
+### Undo Option
+```bash
+python organize_downloads_dir.py --undo --dir ~/Downloads
 ```
 
 ## 🧩 Categories & Extensions
